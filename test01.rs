@@ -43,6 +43,11 @@ fn main() {
     let t3 : char = 'a' ;
     let t4 : f32 = 11.11 ;
     println!("{} {} {} {} " , t1 , t2 , t3 , t4);
+    let msg1 :String = String::from("Hello, World!");
+    let msg2 :String = "Hello, World!".to_string();
+    let msg3 :&str = "Hello, World!";
+    let msg4 :String = format!("test: {}, {}", t1, t2);
+    println!("{} {} {} {}", msg1 , msg2 , msg3 , msg4);
     
     let num = 42;      
     let pi = 3.14;      
