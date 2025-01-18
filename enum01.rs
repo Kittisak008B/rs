@@ -1,3 +1,5 @@
+// Enums represent multiple related values as different states in Rust
+
 enum Message {
     Quit,                      // No data
     Move { x: i32, y: i32 },   // Struct-like variant
