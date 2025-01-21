@@ -3,10 +3,10 @@
 // Trait	    Purpose
 // Clone	    Allows deep copying of structs and enums.
 // Debug	    Enables {:?} formatting for debugging.
-// PartialEq	Enables == and != comparisons.
-// Eq	        Ensures total equality (used with PartialEq).
-// PartialOrd	Enables <, >, <=, >= but allows incomplete comparisons (e.g., NaN).
-// Ord	        Enables total ordering (requires PartialOrd).
+// PartialEq       Enables == and != comparisons.
+// Eq	           Ensures total equality (used with PartialEq).
+// PartialOrd	   Enables <, >, <=, >= but allows incomplete comparisons (e.g., NaN).
+// Ord	           Enables total ordering (requires PartialOrd).
 // Default	    Provides a default instance with Struct::default().
 
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Default)]
