@@ -41,3 +41,35 @@ fn main() {
     let circle = Circle { radius: 3.0 };
     println!("Circle area: {}", circle.area());
 }
+
+
+// trait Shape<T>{
+//     fn area(&self) -> T; // Generic
+// }
+
+// struct Rectangle {
+//     width: f64,
+//     height: f64,
+// }
+// impl Shape<f64> for Rectangle {
+//     fn area(&self) -> f64 {
+//         self.width * self.height
+//     }
+// }
+
+// struct Circle {
+//     radius: f64,
+// }
+// impl Shape<f64> for Circle {
+//     fn area(&self) -> f64 {
+//         std::f64::consts::PI * self.radius * self.radius
+//     }
+// }
+
+// fn main() {
+//     let rectangle = Rectangle { width: 5.0, height: 10.0 };
+//     println!("Rectangle area: {}", rectangle.area());
+
+//     let circle = Circle { radius: 3.0 };
+//     println!("Circle area: {}", circle.area());
+// }
