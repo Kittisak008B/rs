@@ -55,3 +55,13 @@ async fn main() {
 // Task 2 finishes first (because it sleeps for only 1 second).
 // Task 1 finishes later (because it sleeps for 2 seconds).
 // tokio::join! ensures both tasks finish before continuing execution.
+
+
+// Add tokio to the dependencies section of Cargo.toml file
+
+// [package]
+// name = "hello_rust01"
+// version = "0.1.0"
+// edition = "2021"
+// [dependencies]
+// tokio = {version = "1" , features = ["full"]}
